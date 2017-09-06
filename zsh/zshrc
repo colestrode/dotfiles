@@ -46,10 +46,7 @@ ENABLE_CORRECTION="true"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git mercurial jira git-flow-completion)
-
-# User configuration
-export JIRA_URL=https://jira.int.messagesystems.com
+plugins=(git mercurial git-flow-completion)
 
 export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
@@ -91,3 +88,4 @@ export ANSIBLE_ENV_PATH=/Users/cfurfarostrode/src/projects/Ansible-Environments
 
 # 172.28.128.99  sparkblog.dev  # VAGRANT: bb121d468a6fe1f700b43d9ce9ce1a64 (default) / 18ddd879-9fe8-453a-8b53-0f6f38edfa80
 [ -f /opt/hamurai/env.sh ] && source /opt/hamurai/env.sh
+if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
