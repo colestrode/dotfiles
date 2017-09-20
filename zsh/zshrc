@@ -89,3 +89,6 @@ export ANSIBLE_ENV_PATH=/Users/cfurfarostrode/src/projects/Ansible-Environments
 # 172.28.128.99  sparkblog.dev  # VAGRANT: bb121d468a6fe1f700b43d9ce9ce1a64 (default) / 18ddd879-9fe8-453a-8b53-0f6f38edfa80
 [ -f /opt/hamurai/env.sh ] && source /opt/hamurai/env.sh
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
+
+eval "$(pyenv init -)"
+
