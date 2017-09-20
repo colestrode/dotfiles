@@ -48,7 +48,7 @@ ENABLE_CORRECTION="true"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git mercurial git-flow-completion)
 
-export PATH=$HOME/bin:/usr/local/bin:~/Library/Python/2.7/bin:$PATH
+export PATH=$HOME/bin:/usr/local/bin:$PATH
 # export MANPATH="/usr/local/man:$MANPATH"
 
 source $ZSH/oh-my-zsh.sh
@@ -89,6 +89,4 @@ export ANSIBLE_ENV_PATH=/Users/cfurfarostrode/src/projects/Ansible-Environments
 # 172.28.128.99  sparkblog.dev  # VAGRANT: bb121d468a6fe1f700b43d9ce9ce1a64 (default) / 18ddd879-9fe8-453a-8b53-0f6f38edfa80
 [ -f /opt/hamurai/env.sh ] && source /opt/hamurai/env.sh
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
-
-eval "$(pyenv init -)"
 
