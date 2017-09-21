@@ -82,11 +82,11 @@ alias gulp="nocorrect gulp"
 
 export GIT_MERGE_AUTOEDIT=no
 
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin:/Users/cfurfarostrode/src/projects/gitplus/commands:/Users/cfurfarostrode/src/projects/hamurai/bin/hamurai
+export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin:/Users/cfurfarostrode/src/projects/gitplus/commands
 
 export ANSIBLE_ENV_PATH=/Users/cfurfarostrode/src/projects/Ansible-Environments
 
 # 172.28.128.99  sparkblog.dev  # VAGRANT: bb121d468a6fe1f700b43d9ce9ce1a64 (default) / 18ddd879-9fe8-453a-8b53-0f6f38edfa80
+
 [ -f /opt/hamurai/env.sh ] && source /opt/hamurai/env.sh
 if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
-
