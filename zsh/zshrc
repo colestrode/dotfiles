@@ -80,6 +80,7 @@ source $ZSH/oh-my-zsh.sh
 
 alias gulp="nocorrect gulp"
 alias nginx="vim /usr/local/etc/openresty/sites/sparkpost.conf"
+alias nginx-restart="sudo brew services restart openresty"
 
 export GIT_MERGE_AUTOEDIT=no
 
