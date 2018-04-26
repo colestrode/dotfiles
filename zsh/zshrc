@@ -79,6 +79,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias gulp="nocorrect gulp"
+alias nginx="vim /usr/local/etc/openresty/sites/sparkpost.conf"
 
 export GIT_MERGE_AUTOEDIT=no
 
