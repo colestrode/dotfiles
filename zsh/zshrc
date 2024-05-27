@@ -6,7 +6,7 @@ export ZSH=$HOME/.oh-my-zsh
 # Look in ~/.oh-my-zsh/themes/
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
-ZSH_THEME="cfs"
+ZSH_THEME="cole"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -83,12 +83,3 @@ alias nginx="vim /usr/local/etc/openresty/sites/sparkpost.conf"
 alias nginx-restart="sudo brew services restart openresty"
 
 export GIT_MERGE_AUTOEDIT=no
-
-export PATH=$PATH:/Applications/Postgres.app/Contents/Versions/9.5/bin:/Users/cfurfarostrode/src/projects/gitplus/commands
-
-export ANSIBLE_ENV_PATH=/Users/cfurfarostrode/src/projects/Ansible-Environments
-
-# 172.28.128.99  sparkblog.dev  # VAGRANT: bb121d468a6fe1f700b43d9ce9ce1a64 (default) / 18ddd879-9fe8-453a-8b53-0f6f38edfa80
-
-[ -f /opt/hamurai/env.sh ] && source /opt/hamurai/env.sh
-if which nodenv > /dev/null; then eval "$(nodenv init -)"; fi
